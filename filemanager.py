@@ -74,8 +74,6 @@ for filename in files:
         ".yml",
         ".yaml",
         ".sql",
-        ".md",
-        ".exe",
         ".bin",
         ".dll",
         ".so",
@@ -112,7 +110,6 @@ for filename in files:
         ".m4v",
         ".mts",
         ".m2ts",
-        ".ts",
         ".asf",
         ".ogv",
         ".ogg",
@@ -133,7 +130,7 @@ for filename in files:
     elif extension in [
         ".exe",
     ]:
-        target_dir_name = "Coding"
+        target_dir_name = "Softwares"
     else:
         print(f"OOPS, skipping the file: {filename} (unrecognized extension)...")
         continue
